@@ -65,59 +65,61 @@
             <button>Agendamento de Serviços</button>
             <button>Peças</button>
         </section>
-        <section class="search-vehicles">
+        <form>
+        </section>
+          <section class="search-vehicles">
             <div class="search-header">
                 <h2><i>Buscar Veículos</i></h2>
             </div>
             <div class="search-options">
-                <label for="make">
+                <label for="condition">
                     <span>Condição:</span>
-                    <select id="make">
-                        <option value="1">Selecione</option>
-                        <option value="2">Todos</option>
-                        <option value="3">Seminovo</option>
-                        <option value="4">Novo</option>
+                    <select id="condition" name="condition">
+                      <option value="1">Selecione</option>
+                      <option value="Todos">Todos</option>
+                      <option value="Seminovo">Seminovo</option>
+                      <option value="Novo">Novo</option>
                     </select>
                 </label>
                 <label for="make">
                     <span>Marca:</span>
-                    <select id="make">
+                    <select id="make" name="make">
                         <option value="1">Selecione</option>
-                        <option value="2">Chevrolet</option>
-                        <option value="3">Ford</option>
-                        <option value="4">Toyota</option>
-                        <option value="5">Jeep</option>
-                        <option value="6">Fiat</option>
-                        <option value="7">Honda</option>
-                        <option value="8">Nissan</option>
-                        <option value="8">Nissan</option>
+                        <option value="Chevrolet">Chevrolet</option>
+                        <option value="Ford">Ford</option>
+                        <option value="Toyota">Toyota</option>
+                        <option value="Jeep">Jeep</option>
+                        <option value="Fiat">Fiat</option>
+                        <option value="Honda">Honda</option>
+                        <option value="Nissan">Nissan</option>
                     </select>
                 </label>
-                <label for="make">
+                <label for="model">
                     <span>Modelo:</span>
-                    <select id="make">
-                        <option value="1">Selecione</option>
-                        <option value="2">Hatch</option>
-                        <option value="3">Sedã</option>
-                        <option value="4">SUV</option>
-                        <option value="5">Picapes</option>
-                        <option value="6">Esportivo</option>
+                    <select id="model" name="model">
+                      <option value="1">Selecione</option>
+                      <option value="Hatch">Hatch</option>
+                      <option value="Sedã">Sedã</option>
+                      <option value="SUV">SUV</option>
+                      <option value="Picapes">Picapes</option>
+                      <option value="Esportivo">Esportivo</option>
                     </select>
                 </label>
                 <label for="year">
                     <span>Ano:</span>
-                    <select id="year">
-                        <option value="1">Selecione</option>
-                        <option value="1">2023</option>
-                        <option value="2">2022</option>
-                        <option value="3">2021</option>
-                        <option value="4">2020</option>
-                        <option value="5">2019</option>
+                    <select id="year" name="year">
+                      <option value="1">Selecione</option>
+                      <option value="2023">2023</option>
+                      <option value="2022">2022</option>
+                      <option value="2021">2021</option>
+                      <option value="2020">2020</option>
+                      <option value="2019">2019</option>
                     </select>
                 </label>
                 <button type="submit">Pesquisar</button>
             </div>
         </section>
+      </form>
         <h2>Concessionária Lorem Ipsum - Curitiba/PR</h2>
         <section class="location">
             <div class="location-image">
